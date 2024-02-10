@@ -31,7 +31,7 @@ animation: scrollText 10s linear infinite;
             top: -100%;
         }
     }
-    .button-container {
+/*     .button-container {
             position: absolute;
             top: 10px;
             left: 10px;
@@ -39,7 +39,7 @@ animation: scrollText 10s linear infinite;
     .button-container button {
             padding: 10px 20px;
             font-size: 16px;
-    }
+    } */
 </style>
 </head>
 <body>
@@ -54,9 +54,9 @@ animation: scrollText 10s linear infinite;
 <p>世界轉動围住你</p>
 </div>
 
-<div class="button-container">
+<!-- <div class="button-container">
     <button id="playButton">播放音乐</button>
-</div>
+</div> -->
 
 <script>
     // 获取canvas和context
@@ -199,17 +199,17 @@ animation: scrollText 10s linear infinite;
         canvas.height = window.innerHeight;
     });
      // 播放音乐的按钮点击事件
-     const playButton = document.getElementById('playButton');
-        const bgm = new Audio('background_music.mp3');
-        playButton.addEventListener('click', function() {
-            if (bgm.paused) {
-                bgm.play();
-                playButton.textContent = '暂停音乐';
-            } else {
-                bgm.pause();
-                playButton.textContent = '播放音乐';
-            }
-        });
+     // const playButton = document.getElementById('playButton');
+     //    const bgm = new Audio('background_music.mp3');
+     //    playButton.addEventListener('click', function() {
+     //        if (bgm.paused) {
+     //            bgm.play();
+     //            playButton.textContent = '暂停音乐';
+     //        } else {
+     //            bgm.pause();
+     //            playButton.textContent = '播放音乐';
+     //        }
+     //    });
  
 </script>
 </body>
