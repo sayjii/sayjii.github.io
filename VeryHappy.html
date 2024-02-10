@@ -181,7 +181,7 @@ animation: scrollText 10s linear infinite;
         }
  
         // 显示文字
-        ctx.font = "150px 华文行楷";
+        ctx.font = "50px 华文行楷";
         ctx.fillStyle = "gold";
         ctx.textAlign = "center";
         ctx.fillText("2024年龙年快乐", canvas.width / 2, canvas.height / 2);
@@ -199,17 +199,17 @@ animation: scrollText 10s linear infinite;
         canvas.height = window.innerHeight;
     });
      // 播放音乐的按钮点击事件
-     const playButton = document.getElementById('playButton');
-        const bgm = new Audio('background_music.mp3');
-        playButton.addEventListener('click', function() {
-            if (bgm.paused) {
-                bgm.play();
-                playButton.textContent = '暂停音乐';
-            } else {
-                bgm.pause();
-                playButton.textContent = '播放音乐';
-            }
-        });
+     // const playButton = document.getElementById('playButton');
+     //    const bgm = new Audio('background_music.mp3');
+     //    playButton.addEventListener('click', function() {
+     //        if (bgm.paused) {
+     //            bgm.play();
+     //            playButton.textContent = '暂停音乐';
+     //        } else {
+     //            bgm.pause();
+     //            playButton.textContent = '播放音乐';
+     //        }
+     //    });
  
 </script>
 </body>
